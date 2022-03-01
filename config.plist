@@ -407,7 +407,7 @@
                     <key>applbkl</key>
                     <data>AAAAAA==</data>
                     <key>shikigva</key>
-                    <integer>40</integer>
+                    <integer>9</integer>
                 </dict>
                 <key>PciRoot(0x0)/Pci(0x14,0x0)</key>
                 <dict>
@@ -523,22 +523,10 @@
                     <string>VGA compatible controller</string>
                     <key>enable-backlight-smoother</key>
                     <data>AQAAAA==</data>
-                    <key>framebuffer-con1-alldata</key>
-                    <data>/wUSAAAIAACHAAAA/wAAAAEAAABAAAAA</data>
-                    <key>framebuffer-con1-enable</key>
-                    <data>AQAAAA==</data>
                     <key>framebuffer-cursormem</key>
                     <data>AACQAA==</data>
-                    <key>framebuffer-memorycount</key>
-                    <data>AgAAAA==</data>
                     <key>framebuffer-patch-enable</key>
                     <data>AQAAAA==</data>
-                    <key>framebuffer-portcount</key>
-                    <data>AQAAAA==</data>
-                    <key>framebuffer-unifiedmem</key>
-                    <data>AADw/w==</data>
-                    <key>model</key>
-                    <string>Intel Iris Pro Graphics</string>
                 </dict>
             </dict>
             <key>Delete</key>
@@ -911,9 +899,9 @@
             <key>Emulate</key>
             <dict>
                 <key>Cpuid1Data</key>
-                <data>wwYDAAAAAAAAAAAAAAAAAA==</data>
+                <data></data>
                 <key>Cpuid1Mask</key>
-                <data>/////wAAAAAAAAAAAAAAAA==</data>
+                <data></data>
                 <key>DummyPowerManagement</key>
                 <false/>
                 <key>MaxKernel</key>
@@ -1547,7 +1535,7 @@
                     <key>SystemAudioVolume</key>
                     <data>Rg==</data>
                     <key>boot-args</key>
-                    <string>keepsyms=1 -wegnoegpu -novht -noht40 itlwm_cc=IT</string>
+                    <string>keepsyms=1 -novht -noht40 itlwm_cc=IT</string>
                     <key>csr-active-config</key>
                     <data>5wMAAA==</data>
                     <key>prev-lang:kbd</key>
