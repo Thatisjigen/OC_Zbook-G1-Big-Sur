@@ -12,23 +12,23 @@
                     <key>Enabled</key>
                     <true/>
                     <key>Path</key>
-                    <string>SSDT-FAN-MOD.aml</string>
-                </dict>
-                <dict>
-                    <key>Comment</key>
-                    <string></string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>Path</key>
-                    <string>SSDT-OLARILA.aml</string>
-                </dict>
-                <dict>
-                    <key>Comment</key>
-                    <string></string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>Path</key>
                     <string>DSDT.aml</string>
+                </dict>
+                <dict>
+                    <key>Comment</key>
+                    <string></string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>Path</key>
+                    <string>SSDT-EC.aml</string>
+                </dict>
+                <dict>
+                    <key>Comment</key>
+                    <string></string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>Path</key>
+                    <string>SSDT-FAN-MOD.aml</string>
                 </dict>
                 <dict>
                     <key>Comment</key>
@@ -52,7 +52,39 @@
                     <key>Enabled</key>
                     <true/>
                     <key>Path</key>
+                    <string>SSDT-HPET.aml</string>
+                </dict>
+                <dict>
+                    <key>Comment</key>
+                    <string></string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>Path</key>
+                    <string>SSDT-PLUG-DRTNIA.aml</string>
+                </dict>
+                <dict>
+                    <key>Comment</key>
+                    <string></string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>Path</key>
                     <string>SSDT-PNLF.aml</string>
+                </dict>
+                <dict>
+                    <key>Comment</key>
+                    <string></string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>Path</key>
+                    <string>SSDT-USB-Reset.aml</string>
+                </dict>
+                <dict>
+                    <key>Comment</key>
+                    <string></string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>Path</key>
+                    <string>SSDT-USBX.aml</string>
                 </dict>
                 <dict>
                     <key>Comment</key>
@@ -95,188 +127,7 @@
                 </dict>
             </array>
             <key>Patch</key>
-            <array>
-                <dict>
-                    <key>Base</key>
-                    <string></string>
-                    <key>BaseSkip</key>
-                    <integer>0</integer>
-                    <key>Comment</key>
-                    <string>_Q11 to XQ11</string>
-                    <key>Count</key>
-                    <integer>1</integer>
-                    <key>Enabled</key>
-                    <false/>
-                    <key>Find</key>
-                    <data>X1ExMQ==</data>
-                    <key>Limit</key>
-                    <integer>0</integer>
-                    <key>Mask</key>
-                    <data></data>
-                    <key>OemTableId</key>
-                    <data></data>
-                    <key>Replace</key>
-                    <data>WFExMQ==</data>
-                    <key>ReplaceMask</key>
-                    <data></data>
-                    <key>Skip</key>
-                    <integer>0</integer>
-                    <key>TableLength</key>
-                    <integer>0</integer>
-                    <key>TableSignature</key>
-                    <data></data>
-                </dict>
-                <dict>
-                    <key>Base</key>
-                    <string></string>
-                    <key>BaseSkip</key>
-                    <integer>0</integer>
-                    <key>Comment</key>
-                    <string>_Q12 to XQ12</string>
-                    <key>Count</key>
-                    <integer>1</integer>
-                    <key>Enabled</key>
-                    <false/>
-                    <key>Find</key>
-                    <data>X1ExMg==</data>
-                    <key>Limit</key>
-                    <integer>0</integer>
-                    <key>Mask</key>
-                    <data></data>
-                    <key>OemTableId</key>
-                    <data></data>
-                    <key>Replace</key>
-                    <data>WFExMg==</data>
-                    <key>ReplaceMask</key>
-                    <data></data>
-                    <key>Skip</key>
-                    <integer>0</integer>
-                    <key>TableLength</key>
-                    <integer>0</integer>
-                    <key>TableSignature</key>
-                    <data></data>
-                </dict>
-                <dict>
-                    <key>Base</key>
-                    <string></string>
-                    <key>BaseSkip</key>
-                    <integer>0</integer>
-                    <key>Comment</key>
-                    <string>Rename GFX0 to IGPU (Graphics)</string>
-                    <key>Count</key>
-                    <integer>0</integer>
-                    <key>Enabled</key>
-                    <false/>
-                    <key>Find</key>
-                    <data>R0ZYMA==</data>
-                    <key>Limit</key>
-                    <integer>0</integer>
-                    <key>Mask</key>
-                    <data></data>
-                    <key>OemTableId</key>
-                    <data></data>
-                    <key>Replace</key>
-                    <data>SUdQVQ==</data>
-                    <key>ReplaceMask</key>
-                    <data></data>
-                    <key>Skip</key>
-                    <integer>0</integer>
-                    <key>TableLength</key>
-                    <integer>0</integer>
-                    <key>TableSignature</key>
-                    <data>RFNEVA==</data>
-                </dict>
-                <dict>
-                    <key>Base</key>
-                    <string></string>
-                    <key>BaseSkip</key>
-                    <integer>0</integer>
-                    <key>Comment</key>
-                    <string>Rename _OSI to XOSI (OS)</string>
-                    <key>Count</key>
-                    <integer>0</integer>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>Find</key>
-                    <data>X09TSQ==</data>
-                    <key>Limit</key>
-                    <integer>0</integer>
-                    <key>Mask</key>
-                    <data></data>
-                    <key>OemTableId</key>
-                    <data></data>
-                    <key>Replace</key>
-                    <data>WE9TSQ==</data>
-                    <key>ReplaceMask</key>
-                    <data></data>
-                    <key>Skip</key>
-                    <integer>0</integer>
-                    <key>TableLength</key>
-                    <integer>0</integer>
-                    <key>TableSignature</key>
-                    <data>RFNEVA==</data>
-                </dict>
-                <dict>
-                    <key>Base</key>
-                    <string></string>
-                    <key>BaseSkip</key>
-                    <integer>0</integer>
-                    <key>Comment</key>
-                    <string>Rename _OSI to XOSI (OS)</string>
-                    <key>Count</key>
-                    <integer>0</integer>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>Find</key>
-                    <data>RwFwAHAAAQg=</data>
-                    <key>Limit</key>
-                    <integer>0</integer>
-                    <key>Mask</key>
-                    <data></data>
-                    <key>OemTableId</key>
-                    <data></data>
-                    <key>Replace</key>
-                    <data>RwFwAHAAAQI=</data>
-                    <key>ReplaceMask</key>
-                    <data></data>
-                    <key>Skip</key>
-                    <integer>0</integer>
-                    <key>TableLength</key>
-                    <integer>0</integer>
-                    <key>TableSignature</key>
-                    <data>RFNEVA==</data>
-                </dict>
-                <dict>
-                    <key>Base</key>
-                    <string></string>
-                    <key>BaseSkip</key>
-                    <integer>0</integer>
-                    <key>Comment</key>
-                    <string>RTC_fixer</string>
-                    <key>Count</key>
-                    <integer>0</integer>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>Find</key>
-                    <data>RwFwAHAAAQg=</data>
-                    <key>Limit</key>
-                    <integer>0</integer>
-                    <key>Mask</key>
-                    <data></data>
-                    <key>OemTableId</key>
-                    <data></data>
-                    <key>Replace</key>
-                    <data>RwFwAHAAAQI=</data>
-                    <key>ReplaceMask</key>
-                    <data></data>
-                    <key>Skip</key>
-                    <integer>0</integer>
-                    <key>TableLength</key>
-                    <integer>0</integer>
-                    <key>TableSignature</key>
-                    <data></data>
-                </dict>
-            </array>
+            <array/>
             <key>Quirks</key>
             <dict>
                 <key>FadtEnableReset</key>
@@ -398,21 +249,45 @@
                     <key>model</key>
                     <string>Xeon E3-1200 v3/4th Gen Core Processor DRAM Controller</string>
                 </dict>
-                <key>PciRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x1)</key>
+                <key>PciRoot(0x0)/Pci(0x1,0x0)</key>
                 <dict>
-                    <key>@0,backlight-control</key>
-                    <data>AAAAAA==</data>
-                    <key>AAPL,backlight-control</key>
-                    <data>AAAAAA==</data>
-                    <key>applbkl</key>
-                    <data>AAAAAA==</data>
+                    <key>AAPL,slot-name</key>
+                    <string>Internal@0,1,0</string>
+                    <key>device_type</key>
+                    <string>PCI bridge</string>
+                    <key>model</key>
+                    <string>Xeon E3-1200 v3/4th Gen Core Processor PCI Express x16 Controller</string>
+                </dict>
+                <key>PciRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x0)</key>
+                <dict>
+                    <key>AAPL,slot-name</key>
+                    <string>Internal@0,1,0/0,0</string>
+                    <key>hda-gfx</key>
+                    <string>onboard-2</string>
+                    <key>model</key>
+                    <string>GK106GLM [Quadro K2100M]</string>
                     <key>shikigva</key>
                     <integer>40</integer>
                 </dict>
+                <key>PciRoot(0x0)/Pci(0x1,0x0)/Pci(0x0,0x1)</key>
+                <dict>
+                    <key>AAPL,slot-name</key>
+                    <string>Internal@0,1,0/0,1</string>
+                    <key>device_type</key>
+                    <string>Audio device</string>
+                    <key>model</key>
+                    <string>GK106 HDMI Audio Controller</string>
+                </dict>
                 <key>PciRoot(0x0)/Pci(0x14,0x0)</key>
                 <dict>
+                    <key>AAPL,slot-name</key>
+                    <string>Internal@0,20,0</string>
                     <key>acpi-wake-type</key>
                     <data>AQ==</data>
+                    <key>device_type</key>
+                    <string>USB controller</string>
+                    <key>model</key>
+                    <string>8 Series/C220 Series Chipset Family USB xHCI</string>
                 </dict>
                 <key>PciRoot(0x0)/Pci(0x16,0x0)</key>
                 <dict>
@@ -432,6 +307,24 @@
                     <key>model</key>
                     <string>8 Series/C220 Series Chipset Family KT Controller</string>
                 </dict>
+                <key>PciRoot(0x0)/Pci(0x19,0x0)</key>
+                <dict>
+                    <key>AAPL,slot-name</key>
+                    <string>Internal@0,25,0</string>
+                    <key>device_type</key>
+                    <string>Ethernet controller</string>
+                    <key>model</key>
+                    <string>Ethernet Connection I217-LM</string>
+                </dict>
+                <key>PciRoot(0x0)/Pci(0x1A,0x0)</key>
+                <dict>
+                    <key>AAPL,slot-name</key>
+                    <string>Internal@0,26,0</string>
+                    <key>device_type</key>
+                    <string>USB controller</string>
+                    <key>model</key>
+                    <string>8 Series/C220 Series Chipset Family USB EHCI #2</string>
+                </dict>
                 <key>PciRoot(0x0)/Pci(0x1B,0x0)</key>
                 <dict>
                     <key>AAPL,slot-name</key>
@@ -441,7 +334,7 @@
                     <key>hda-gfx</key>
                     <string>onboard-1</string>
                     <key>layout-id</key>
-                    <integer>84</integer>
+                    <data>VAAAAA==</data>
                     <key>model</key>
                     <string>8 Series/C220 Series Chipset High Definition Audio Controller</string>
                 </dict>
@@ -474,8 +367,14 @@
                 </dict>
                 <key>PciRoot(0x0)/Pci(0x1C,0x6)/Pci(0x0,0x0)</key>
                 <dict>
+                    <key>AAPL,slot-name</key>
+                    <string>Internal@0,28,6/0,0</string>
                     <key>built-in</key>
                     <data>AQ==</data>
+                    <key>device_type</key>
+                    <string>Network controller</string>
+                    <key>model</key>
+                    <string>Centrino Advanced-N 6235</string>
                 </dict>
                 <key>PciRoot(0x0)/Pci(0x1C,0x7)</key>
                 <dict>
@@ -486,6 +385,24 @@
                     <key>model</key>
                     <string>8 Series/C220 Series Chipset Family PCI Express Root Port #8</string>
                 </dict>
+                <key>PciRoot(0x0)/Pci(0x1C,0x7)/Pci(0x0,0x0)</key>
+                <dict>
+                    <key>AAPL,slot-name</key>
+                    <string>Internal@0,28,7/0,0</string>
+                    <key>device_type</key>
+                    <string>Unassigned class</string>
+                    <key>model</key>
+                    <string>RTS5249 PCI Express Card Reader</string>
+                </dict>
+                <key>PciRoot(0x0)/Pci(0x1D,0x0)</key>
+                <dict>
+                    <key>AAPL,slot-name</key>
+                    <string>Internal@0,29,0</string>
+                    <key>device_type</key>
+                    <string>USB controller</string>
+                    <key>model</key>
+                    <string>8 Series/C220 Series Chipset Family USB EHCI #1</string>
+                </dict>
                 <key>PciRoot(0x0)/Pci(0x1F,0x0)</key>
                 <dict>
                     <key>AAPL,slot-name</key>
@@ -493,7 +410,25 @@
                     <key>device_type</key>
                     <string>ISA bridge</string>
                     <key>model</key>
-                    <string>8 Series LPC Controller</string>
+                    <string>QM87 Express LPC Controller</string>
+                </dict>
+                <key>PciRoot(0x0)/Pci(0x1F,0x2)</key>
+                <dict>
+                    <key>AAPL,slot-name</key>
+                    <string>Internal@0,31,2</string>
+                    <key>device_type</key>
+                    <string>RAID bus controller</string>
+                    <key>model</key>
+                    <string>82801 Mobile SATA Controller [RAID mode]</string>
+                </dict>
+                <key>PciRoot(0x0)/Pci(0x1F,0x3)</key>
+                <dict>
+                    <key>AAPL,slot-name</key>
+                    <string>Internal@0,31,3</string>
+                    <key>device_type</key>
+                    <string>SMBus</string>
+                    <key>model</key>
+                    <string>8 Series/C220 Series Chipset Family SMBus Controller</string>
                 </dict>
                 <key>PciRoot(0x0)/Pci(0x2,0x0)</key>
                 <dict>
@@ -507,6 +442,8 @@
                     <string>Internal@0,2,0</string>
                     <key>AAPL00,backlight-control</key>
                     <data>AQAAAA==</data>
+                    <key>AAPL00,override-no-connect</key>
+                    <data>AP///////wAGEBSgAAAAAAoWAQSlHRJ4Am+xp1VMniUMUFQAAAABAQEBAQEBAQEBAQEBAQEBgzGAoHA4HUAwIDUAQEQhAAAZNyWAonA4QEAwICUAWMIQAAAZAAAA/ABDb2xvciBMQ0QKICAgAAAA/QA4TB5TEQAKICAgICAgAD/4/////////wgAAAAAAAAAcDMj7P5/AAAYAAAAAAAAAHAzI+z+fwAAEC4j7P5/AAAKBScGAQAAAAEAAAAAAAAAeDMj7P5/AAALAAAAAAAAAAAAAAAAAAAAEC4j7P5/AACeBScGAQAAAAEAAAAAAAAAh40iBgEAAAACAAAAAAAAAA==</data>
                     <key>applbkl</key>
                     <data>AQAAAA==</data>
                     <key>backlight-smoother-interval</key>
@@ -521,24 +458,40 @@
                     <data>EgQAAA==</data>
                     <key>device_type</key>
                     <string>VGA compatible controller</string>
+                    <key>dpcd-max-link-rate</key>
+                    <data>BgAAAA==</data>
                     <key>enable-backlight-smoother</key>
                     <data>AQAAAA==</data>
+                    <key>enable-dpcd-max-link-rate-fix</key>
+                    <data>AQAAAA==</data>
+                    <key>enable-hdmi20</key>
+                    <data>AQAAAA==</data>
+                    <key>framebuffer-camellia</key>
+                    <data>AAAAAA==</data>
                     <key>framebuffer-con1-alldata</key>
-                    <data>/wUSAAAIAACHAAAA/wAAAAEAAABAAAAA</data>
+                    <data>AQUJAAAIAACHAAAAAgQJAAAIAACHAAAA</data>
                     <key>framebuffer-con1-enable</key>
                     <data>AQAAAA==</data>
                     <key>framebuffer-cursormem</key>
                     <data>AACQAA==</data>
+                    <key>framebuffer-fbmem</key>
+                    <data>AACQAA==</data>
+                    <key>framebuffer-flags</key>
+                    <data>DwAAAA==</data>
                     <key>framebuffer-memorycount</key>
-                    <data>AgAAAA==</data>
+                    <data>AwAAAA==</data>
+                    <key>framebuffer-mobile</key>
+                    <data>AQAAAA==</data>
                     <key>framebuffer-patch-enable</key>
                     <data>AQAAAA==</data>
+                    <key>framebuffer-pipecount</key>
+                    <data>AwAAAA==</data>
                     <key>framebuffer-portcount</key>
-                    <data>AQAAAA==</data>
+                    <data>AwAAAA==</data>
+                    <key>framebuffer-stolenmem</key>
+                    <data>AAAwAQ==</data>
                     <key>framebuffer-unifiedmem</key>
-                    <data>AADw/w==</data>
-                    <key>model</key>
-                    <string>Intel Iris Pro Graphics</string>
+                    <data>AAAAgA==</data>
                 </dict>
             </dict>
             <key>Delete</key>
@@ -876,9 +829,27 @@
                     <key>Arch</key>
                     <string>Any</string>
                     <key>BundlePath</key>
-                    <string>Display-4c83-5344.kext</string>
+                    <string>CPUFriend.kext</string>
                     <key>Comment</key>
-                    <string>V9.9.9</string>
+                    <string>V1.2.4</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>ExecutablePath</key>
+                    <string>Contents/MacOS/CPUFriend</string>
+                    <key>MaxKernel</key>
+                    <string></string>
+                    <key>MinKernel</key>
+                    <string></string>
+                    <key>PlistPath</key>
+                    <string>Contents/Info.plist</string>
+                </dict>
+                <dict>
+                    <key>Arch</key>
+                    <string>Any</string>
+                    <key>BundlePath</key>
+                    <string>CPUFriendDataProvider.kext</string>
+                    <key>Comment</key>
+                    <string>V1.0.0</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -911,9 +882,9 @@
             <key>Emulate</key>
             <dict>
                 <key>Cpuid1Data</key>
-                <data>wwYDAAAAAAAAAAAAAAAAAA==</data>
+                <data></data>
                 <key>Cpuid1Mask</key>
-                <data>/////wAAAAAAAAAAAAAAAA==</data>
+                <data></data>
                 <key>DummyPowerManagement</key>
                 <false/>
                 <key>MaxKernel</key>
@@ -965,7 +936,7 @@
                     <key>Count</key>
                     <integer>0</integer>
                     <key>Enabled</key>
-                    <false/>
+                    <true/>
                     <key>Find</key>
                     <data></data>
                     <key>Identifier</key>
@@ -1109,7 +1080,7 @@
             <key>Quirks</key>
             <dict>
                 <key>AppleCpuPmCfgLock</key>
-                <true/>
+                <false/>
                 <key>AppleXcpmCfgLock</key>
                 <true/>
                 <key>AppleXcpmExtraMsrs</key>
@@ -1170,7 +1141,7 @@
                 <key>ConsoleAttributes</key>
                 <integer>15</integer>
                 <key>HibernateMode</key>
-                <string>NVRAM</string>
+                <string>None</string>
                 <key>HideAuxiliary</key>
                 <true/>
                 <key>LauncherOption</key>
@@ -1263,7 +1234,7 @@
                 <key>ScanPolicy</key>
                 <integer>0</integer>
                 <key>SecureBootModel</key>
-                <string>Default</string>
+                <string>Disabled</string>
                 <key>Vault</key>
                 <string>Optional</string>
             </dict>
@@ -1547,7 +1518,7 @@
                     <key>SystemAudioVolume</key>
                     <data>Rg==</data>
                     <key>boot-args</key>
-                    <string>keepsyms=1 -wegnoegpu -novht -noht40 itlwm_cc=IT</string>
+                    <string>-novht -wegnoegpu -noht40 itlwm_cc=IT</string>
                     <key>csr-active-config</key>
                     <data>5wMAAA==</data>
                     <key>prev-lang:kbd</key>
@@ -1618,13 +1589,13 @@
                 <key>AdviseFeatures</key>
                 <false/>
                 <key>MLB</key>
-                <string></string>
+                <string>C0XXXXXXXXXXXXXXX</string>
                 <key>MaxBIOSVersion</key>
                 <false/>
                 <key>ProcessorType</key>
                 <integer>1793</integer>
                 <key>ROM</key>
-                <data></data>
+                <data>qqqqqqo=</data>
                 <key>SpoofVendor</key>
                 <true/>
                 <key>SystemMemoryStatus</key>
@@ -1632,7 +1603,7 @@
                 <key>SystemProductName</key>
                 <string>MacBookPro11,3</string>
                 <key>SystemSerialNumber</key>
-                <string></string>
+                <string>C0XXXXXXXXXX</string>
                 <key>SystemUUID</key>
                 <string></string>
             </dict>
@@ -1875,7 +1846,7 @@
                 <key>DisableSecurityPolicy</key>
                 <false/>
                 <key>EnableVectorAcceleration</key>
-                <true/>
+                <false/>
                 <key>EnableVmx</key>
                 <false/>
                 <key>ExitBootServicesDelay</key>
